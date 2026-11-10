@@ -1,0 +1,115 @@
+- generic [ref=e1]:
+  - generic [aria-hidden] [ref=e2]:
+    - navigation [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://about.google/?fg=1&utm_source=google-&utm_medium=referral&utm_campaign=hp-header
+        - text: Sobre
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://store.google.com/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=pt-PT-
+        - text: Google Store
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: https://mail.google.com/mail/&ogbl
+            - text: Gmail
+          - link [ref=e12] [cursor=pointer]:
+            - /url: https://www.google.com/imghp?hl=pt-PT&ogbl
+            - text: Imagens
+        - button [ref=e15] [cursor=pointer]
+        - link [ref=e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=pt-PT&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+          - generic: Entrar
+    - search [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - button [ref=e40] [cursor=pointer]
+          - combobox [ref=e45]
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - button [ref=e50] [cursor=pointer]
+              - button [ref=e56] [cursor=pointer]
+              - button [ref=e61] [cursor=pointer]
+            - link [ref=e64] [cursor=pointer]:
+              - generic [ref=e66]: Modo IA
+        - generic [ref=e73]:
+          - button [ref=e74] [cursor=pointer]:
+            - generic [ref=e79]: Criar imagens
+          - button [ref=e80] [cursor=pointer]:
+            - generic [ref=e84]: Perguntar sobre ficheiros
+          - button [ref=e85] [cursor=pointer]:
+            - generic [ref=e89]: Debater ideias
+          - button [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: Sinto-me com sorte
+    - generic [ref=e94]:
+      - text: "Disponibilizado pelo Google em:"
+      - link [ref=e95] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_oE7igZr1uckgpzspuV5o08n9Kp4%3D&hl=en&source=homepage&sa=X&ved=2ahUKEwitmNmvvPuXAxXNDTQIHSr5ElMQ2ZgBegQIABAp
+        - text: English
+    - contentinfo [ref=e97]:
+      - generic [ref=e98]: Portugal
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - link [ref=e101] [cursor=pointer]:
+            - /url: https://www.google.com/intl/pt-PT_pt/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+            - text: Publicidade
+          - link [ref=e102] [cursor=pointer]:
+            - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+            - text: Negócios
+          - link [ref=e103] [cursor=pointer]:
+            - /url: https://google.com/search/howsearchworks/?fg=1
+            - text: Como funciona a Pesquisa
+        - link [ref=e105] [cursor=pointer]:
+          - /url: https://sustainability.google/intl/pt-PT/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+          - text: "A nossa terceira década de ação climática: veja o que estamos a fazer"
+        - generic [ref=e106]:
+          - link [ref=e107] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=pt-PT&fg=1
+            - text: Privacidade
+          - link [ref=e108] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=pt-PT&fg=1
+            - text: Termos
+          - button [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]: Definições
+  - generic:
+    - dialog "Antes de continuar para a Pesquisa Google":
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - img "Google" [ref=e123]
+          - generic [ref=e124]:
+            - 'button "Idioma: ‪Português (Portugal)‬" [active] [ref=e126] [cursor=pointer]':
+              - generic [ref=e127]: pt
+            - link "Iniciar sessão" [ref=e129] [cursor=pointer]
+        - generic [ref=e130]:
+          - heading "Antes de continuar para a Google" [level=1] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - text: Usamos
+              - link "cookies" [ref=e134] [cursor=pointer]:
+                - /url: https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=pt-PT
+              - text: e dados, incluindo endereços IP, para
+              - list [ref=e135]:
+                - listitem [ref=e136]: Fornecer e manter os serviços Google
+                - listitem [ref=e137]: Monitorizar interrupções de serviço e proteger contra spam, fraudes e abusos
+                - listitem [ref=e138]: Medir a interação com o público-alvo e as estatísticas dos sites para compreender como são usados os nossos serviços e melhorar a qualidade dos mesmos
+            - generic [ref=e139]:
+              - text: Se optar por "Aceitar tudo", também vamos usar cookies e dados, incluindo endereços IP, para
+              - list [ref=e140]:
+                - listitem [ref=e141]: Desenvolver e melhorar novos serviços
+                - listitem [ref=e142]: Publicar e medir a eficácia de anúncios
+                - listitem [ref=e143]: Mostrar conteúdos personalizados, consoante as suas definições
+                - listitem [ref=e144]: Mostrar anúncios personalizados, consoante as suas definições
+              - generic [ref=e145]: Se optar por "Rejeitar tudo", não vamos usar cookies nem endereços IP para estes fins adicionais.
+            - generic [ref=e146]: O conteúdo não personalizado é influenciado por coisas como o conteúdo que está atualmente a ver, a atividade na sua sessão de pesquisa ativa e a sua localização. Os anúncios não personalizados são influenciados pelo conteúdo que está atualmente a ver e a sua localização geral. Os anúncios e os conteúdos personalizados também podem incluir resultados mais relevantes, recomendações e anúncios personalizados com base na atividade anterior deste navegador, como pesquisas anteriores no Google. Também usamos cookies e dados para personalizar a experiência de forma a ser adequada para a idade, se tal for relevante.
+            - generic [ref=e147]: Selecione "Mais opções" para ver informações adicionais, incluindo detalhes sobre a gestão das suas definições de privacidade. Também pode visitar g.co/privacytools em qualquer altura.
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - button "Rejeitar tudo" [ref=e150] [cursor=pointer]
+            - button "Aceitar tudo" [ref=e151] [cursor=pointer]
+          - link "Mais opções para definições de personalização e cookies" [ref=e153] [cursor=pointer]:
+            - generic "Mais opções para definições de personalização e cookies" [ref=e154]: Mais opções
+        - generic [ref=e155]:
+          - link "Privacidade" [ref=e156] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=pt-PT&fg=1&utm_source=ucbs
+          - generic [aria-hidden] [ref=e157]: ·
+          - link "Termos" [ref=e158] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=pt-PT&fg=1&utm_source=ucbs

@@ -1,0 +1,402 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Avançar para o conteúdo principal" [ref=f3e2] [cursor=pointer]
+      - link "Ajuda de acessibilidade" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=pt-PT
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e12]:
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=pt-PT&ictx=0&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4QpYkNegQIBhAG
+          - img "Ir para a página inicial do Google" [ref=f3e14]
+        - generic [ref=f3e19]:
+          - combobox "Pesq." [ref=f3e21]: Playwright automation testing Playwright automation testing
+          - generic [ref=f3e22]:
+            - button "Limpar" [ref=f3e26] [cursor=pointer]
+            - generic [ref=f3e31]:
+              - button "Ferramentas de introdução" [ref=f3e34] [cursor=pointer]
+              - button "Pesquisa por voz" [ref=f3e40] [cursor=pointer]
+              - button "Pesquisar por imagem" [ref=f3e45] [cursor=pointer]
+    - generic [ref=f3e48]:
+      - button "Definições" [ref=f3e50] [cursor=pointer]
+      - button "Partilhar" [ref=f3e55] [cursor=pointer]
+      - generic [ref=f3e61]:
+        - button "Google Apps" [ref=f3e63] [cursor=pointer]
+        - link "Entrar" [ref=f3e68] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=pt-PT&passive=true&continue=https://www.google.com/search%3Fq%3DPlaywright%2Bautomation%2Btesting%26sca_esv%3D7bf38a0372aa5c6e%26sxsrf%3DAKL5yDg-uROtMcR-81SPPc0jTh63kFOkuA%253A1794247384017%26source%3Dhp%26ei%3D1wryau3QPM2b0PEPqvLLmAU%26iflsig%3DAHSINFcAAAAAavIY6CsVhzhRCP-RAV5mWtum1eFLRkcA%26ved%3D2ahUKEwitmNmvvPuXAxXNDTQIHSr5ElMQ4dUDegQIABAd%26uact%3D5%26oq%3DPlaywright%2Bautomation%2Btesting%26gs_lp%3DEgdnd3Mtd2l6Ih1QbGF5d3JpZ2h0IGF1dG9tYXRpb24gdGVzdGluZzIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEC4YAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAkj0GVDUGVjUGXABeACQAQCYAQCgAQCqAQCwAQC4AQPIAQD4AQGYAgGgAh2oAgqYAx3iAwQYACBd4gMEGAAgXuIDBBgAIF_iAwQYACBg4gMEGAAgYeIDBBgAIGLxBXwxViinjKaTkgcBMaAHALIHALgHAMIHAzQtMcgHG4AIAQ%26sclient%3Dgws-wiz%26sei%3D5gryav6QEoKK-d8P7d2DuAE&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e70]:
+    - navigation [ref=f3e76]:
+      - generic [ref=f3e82]:
+        - list [ref=f3e83]:
+          - listitem [ref=f3e84]:
+            - link "Modo IA" [ref=f3e87] [cursor=pointer]:
+              - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&udm=50&source=hp&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q2J8OegQIExAD
+          - listitem [ref=f3e91]:
+            - link "All" [disabled] [ref=f3e92]
+          - listitem [ref=f3e95]:
+            - link "Shorts" [ref=f3e96] [cursor=pointer]:
+              - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&q=Playwright+automation+testing&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Qs6gLegQIJhAB
+          - listitem [ref=f3e99]:
+            - link "Videos" [ref=f3e100] [cursor=pointer]:
+              - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&q=Playwright+automation+testing&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4QtKgLegQIJRAB
+          - listitem [ref=f3e103]:
+            - link "Images" [ref=f3e104] [cursor=pointer]:
+              - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&q=Playwright+automation+testing&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4QtKgLegQIGBAB
+          - listitem [ref=f3e107]:
+            - link "News" [ref=f3e108] [cursor=pointer]:
+              - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+automation+testing&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q0pQJegQIJBAB
+          - listitem [ref=f3e111]:
+            - link "Web" [ref=f3e112] [cursor=pointer]:
+              - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&udm=web&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kuKoE1v3BbXCtdXUHWspO8BPCEqj09Vap2S22hfR3vKHtJauKOIPZPrpmu3vm_Am99jaWalCXPUsuATulg3Q2sJKHfAyjoeRZqTBz1cE2OT7MIwqYnD6E6-3N3nmy99EhGh2sjmWuKhYtFCcDK90AN3km9Ik&q=Playwright+automation+testing&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Qs6gLegQIFxAB
+          - listitem [ref=f3e115]:
+            - button [ref=f3e116] [cursor=pointer]:
+              - generic "Mais filtros" [ref=f3e117]: Mais
+        - button "Ferramentas" [ref=f3e124] [cursor=pointer]
+    - heading "Resultados da procura" [level=1] [ref=f3e131]
+    - generic [ref=f3e137]:
+      - generic [ref=f3e138]: Looking for results in English?
+      - link [ref=f3e139] [cursor=pointer]:
+        - /url: "#"
+      - link "Change to English" [ref=f3e143] [cursor=pointer]:
+        - /url: /setprefs?sig=0_oE7igZr1uckgpzspuV5o08n9Kp4%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DPlaywright%2Bautomation%2Btesting%26sca_esv%3D7bf38a0372aa5c6e%26sxsrf%3DAKL5yDg-uROtMcR-81SPPc0jTh63kFOkuA:1794247384017%26source%3Dhp%26ei%3D1wryau3QPM2b0PEPqvLLmAU%26iflsig%3DAHSINFcAAAAAavIY6CsVhzhRCP-RAV5mWtum1eFLRkcA%26ved%3D2ahUKEwitmNmvvPuXAxXNDTQIHSr5ElMQ4dUDegQIABAd%26uact%3D5%26oq%3DPlaywright%2Bautomation%2Btesting%26gs_lp%3DEgdnd3Mtd2l6Ih1QbGF5d3JpZ2h0IGF1dG9tYXRpb24gdGVzdGluZzIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEC4YAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAjIKEAAYAxiPARjqAkj0GVDUGVjUGXABeACQAQCYAQCgAQCqAQCwAQC4AQPIAQD4AQGYAgGgAh2oAgqYAx3iAwQYACBd4gMEGAAgXuIDBBgAIF_iAwQYACBg4gMEGAAgYeIDBBgAIGLxBXwxViinjKaTkgcBMaAHALIHALgHAMIHAzQtMcgHG4AIAQ%26sclient%3Dgws-wiz%26sei%3D5gryav6QEoKK-d8P7d2DuAE&hl=en&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4QhoQCKAF6BAgREAQ
+      - link "Manter em Português" [ref=f3e144] [cursor=pointer]:
+        - /url: "#"
+      - link "Definições do idioma" [ref=f3e146] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=pt-PT&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4QiIQCKAN6BAgREAY#languages
+    - main [ref=f3e148]:
+      - generic [ref=f3e152]:
+        - generic [ref=f3e155]:
+          - heading "Web results" [level=2] [ref=f3e156]
+          - generic [ref=f3e157]:
+            - generic [ref=f3e160]:
+              - 'link "Playwright: Fast and reliable end-to-end testing for modern ... Playwright https://playwright.dev" [ref=f3e162] [cursor=pointer]':
+                - /url: /goto?url=CAESVAHEIkXXhdR1nAN1WNsojRzbaqAoKRiZdwFo1RWNnrahzisNxz4khmKzTAMx8C54NXnfJb8UfiJ6pj4i-MT2EJrJUc1rFmWMOgqfzngYu11FoGGGNQ&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                - 'heading "Playwright: Fast and reliable end-to-end testing for modern ..." [level=3] [ref=f3e163]'
+                - generic [ref=f3e169]:
+                  - generic [ref=f3e170]: Playwright
+                  - generic [ref=f3e172]: https://playwright.dev
+              - generic [ref=f3e174]:
+                - generic [ref=f3e175]: ·
+                - link "Traduzir esta página" [ref=f3e176] [cursor=pointer]:
+                  - /url: /goto?url=CAESowEBxCJF19gRyJ1VyWi3wC8yQXf1PtYbZac684WqRnJ6-dx7hPBAufj0TQ73DBFAbbnt1Xel0Fay1unxPRdvw7K0GJ8R-WrquMu5kHBfmoG3_IXyUqVw_IbxoLiQ1mQqEGK40qaiBs5qp28nWYDX_BKBiPuqDve096UNxZWRFVE7vfpYbD-cpS9rXeOhO9rasWRXQazJuCQhIyaXcV5VJ3HZBGdT&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - button "Acerca deste resultado" [ref=f3e181] [cursor=pointer]
+            - generic [ref=f3e188]:
+              - emphasis [ref=f3e189]: Playwright enables reliable web automation for testing
+              - text: ", scripting, and AI agents. One API to drive Chromium, Firefox, and WebKit — in your tests, ..."
+        - generic [ref=f3e193]:
+          - generic [ref=f3e195]:
+            - heading "Vídeos" [level=2] [ref=f3e196]
+            - button "Acerca deste resultado" [ref=f3e201] [cursor=pointer]
+          - generic [ref=f3e207]:
+            - generic [ref=f3e213]:
+              - generic [ref=f3e214]:
+                - generic [ref=f3e215]:
+                  - link [ref=f3e217] [cursor=pointer]:
+                    - /url: /goto?url=CAESaAHEIkXXXkQYWS-ub1ANizutQuQxH7Yqy5GYgOJ3t1DGw1UXOCSDguNn3-R05eZqcV1GDY7mVbknGDrQV2LE0cE-YqKkI2IxJDHXgcrQefTzaz8EsH-ko1bF8EG9c4V3nAeTB7vg6DR9&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                    - 'heading "Playwright MiniProject: End-to-End Automation with the To-do ... YouTube Automation Step by Step 11/11/2025" [level=3] [ref=f3e218]':
+                      - generic [ref=f3e219]: "Playwright MiniProject: End-to-End Automation with the To-do ..."
+                      - generic [ref=f3e223]:
+                        - generic [ref=f3e224]:
+                          - text: YouTube
+                          - generic [ref=f3e225]: · Automation Step by Step
+                        - generic [ref=f3e226]: 11/11/2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · Automation Step by Step
+                      - button "Acerca deste resultado" [ref=f3e230] [cursor=pointer]
+                - 'button "Playwright MiniProject: End-to-End Automation with the To-do ... por Automation Step by Step em YouTube. Reproduzir no Google. 40:00" [ref=f3e235] [cursor=pointer]':
+                  - generic [ref=f3e245]: 40:00
+              - button "17 momentos importantes neste vídeo" [ref=f3e255] [cursor=pointer]
+            - generic [ref=f3e271]:
+              - generic [ref=f3e272]:
+                - link [ref=f3e274] [cursor=pointer]:
+                  - /url: /goto?url=CAESaAHEIkXXPJxtqnOzmj4_JuKM_7iWQV9t_xHOOMlOTzaEljUGIKnJyskXVV3Qk-ezGzJ7I5_pi2IKbpOMWdI8xtnswg7nMOEkF2VsTXUwQkuoHyYDGe7i0R7xO-CWIFxXqBORK1_OMpvx&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                  - heading "Playwright Automation Framework Powered by AI YouTube SDET- QA há 1 mês" [level=3] [ref=f3e275]:
+                    - generic [ref=f3e276]: Playwright Automation Framework Powered by AI
+                    - generic [ref=f3e280]:
+                      - generic [ref=f3e281]:
+                        - text: YouTube
+                        - generic [ref=f3e282]: · SDET- QA
+                      - generic [ref=f3e283]: há 1 mês
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - text: YouTube
+                          - generic: · SDET- QA
+                    - button "Acerca deste resultado" [ref=f3e287] [cursor=pointer]
+              - button "Playwright Automation Framework Powered by AI por SDET- QA em YouTube. Reproduzir no Google. 1:46:57" [ref=f3e292] [cursor=pointer]:
+                - generic [ref=f3e302]: 1:46:57
+            - generic [ref=f3e312]:
+              - generic [ref=f3e313]:
+                - generic [ref=f3e314]:
+                  - link [ref=f3e316] [cursor=pointer]:
+                    - /url: /goto?url=CAESaAHEIkXX2bVSmIaX_S3GrOyievO9QAZn1i4MSO4sA3EwABHnJ-OFcLFycCx5kc_64HSfQ-2jJmU_FpZozgydlFx57byxru71xF87DBQkkMFyf7PeNOoPKRJw2jw6itotBy1cgmebOo6q&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                    - heading "Playwright Automation Tutorial for Beginners from Scratch YouTube Mukesh otwani 02/09/2024" [level=3] [ref=f3e317]:
+                      - generic [ref=f3e318]: Playwright Automation Tutorial for Beginners from Scratch
+                      - generic [ref=f3e322]:
+                        - generic [ref=f3e323]:
+                          - text: YouTube
+                          - generic [ref=f3e324]: · Mukesh otwani
+                        - generic [ref=f3e325]: 02/09/2024
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · Mukesh otwani
+                      - button "Acerca deste resultado" [ref=f3e329] [cursor=pointer]
+                - button "Playwright Automation Tutorial for Beginners from Scratch por Mukesh otwani em YouTube. Reproduzir no Google. 8:17:31" [ref=f3e334] [cursor=pointer]:
+                  - generic [ref=f3e341]: 8:17:31
+              - button "25 momentos importantes neste vídeo" [ref=f3e351] [cursor=pointer]
+          - link "Ver todos os vídeos" [ref=f3e363] [cursor=pointer]:
+            - /url: /search?sca_esv=7bf38a0372aa5c6e&udm=vids&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+automation+testing&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8ccDKAJ6BAghEAU
+            - separator [aria-hidden] [ref=f3e364]
+            - generic [ref=f3e365]: Ver tudo
+        - generic [ref=f3e375]:
+          - heading "As pessoas também perguntam" [level=2] [ref=f3e377]
+          - generic [ref=f3e378]:
+            - button "What is a Playwright in Automation Testing?" [ref=f3e384] [cursor=pointer]
+            - button "Is Selenium better than Playwright?" [ref=f3e398] [cursor=pointer]
+            - button "Is Playwright Python or js?" [ref=f3e412] [cursor=pointer]
+            - button "Is Playwright difficult to learn?" [ref=f3e426] [cursor=pointer]
+        - generic [ref=f3e436]:
+          - heading "Web results" [level=2] [ref=f3e437]
+          - generic [ref=f3e438]:
+            - generic [ref=f3e441]:
+              - link "Writing tests Playwright https://playwright.dev › docs" [ref=f3e443] [cursor=pointer]:
+                - /url: /goto?url=CAESZgHEIkXXyy1WuRSRJ3GULAeAfco9Hyrhn1ynMENoP7KmUi-fTO3IJqdp5SSPW1fUcLtH1oqaUQvXd0HpcQbcBwSfw8wx_amz6kxlGu3IlYFW9o0B77A-syslYstW8g0s-j54IV8oig&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                - heading "Writing tests" [level=3] [ref=f3e444]
+                - generic [ref=f3e450]:
+                  - generic [ref=f3e451]: Playwright
+                  - generic [ref=f3e453]: https://playwright.dev › docs
+              - generic [ref=f3e455]:
+                - generic [ref=f3e456]: ·
+                - link "Traduzir esta página" [ref=f3e457] [cursor=pointer]:
+                  - /url: /goto?url=CAEStQEBxCJF1_Ps6DPJ3wdqpdxl_NJ58lOTWQkJk07gFI-Ti0rvTljvby3_UokbE2AnZ9RpcE4y0hcRHI6TgrTdrREeOyVE4E02Gk0xXZPUhgKvFZuGum_u8F_8MlFicCjCFDh-63m8fD-sTvLtV-0ZgKldQaleotDOs698kWQsxSxfRbPJRP3Q4AWzxM8jfytQ9AfOHt6YADEOEjxfli52OM5EQPEJniNxmeuWRk7hezqyHdJB43-T&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - button "Acerca deste resultado" [ref=f3e462] [cursor=pointer]
+            - generic [ref=f3e469]:
+              - emphasis [ref=f3e470]: "Playwright tests are simple: they perform actions and assert the state against expectations"
+              - text: . Playwright automatically waits for actionability checks to pass ...
+        - generic [ref=f3e474]:
+          - generic [ref=f3e477]:
+            - 'link "Playwright Test Automation: Key Benefits and Features Testomat.io https://testomat.io › blog › test-a..." [ref=f3e479] [cursor=pointer]':
+              - /url: /goto?url=CAESqAEBxCJF1wKJ2FYIY8BDhbSGwn9-d3_lO9nIeunBIN6xHxgAZh_bPLEDH_p8WhMcCU4MvXlPEFtKyAZyfQXjybEQf2a5AU7qkH8z_Icz2fLgb-yPP8a8vQRUzrb7Vgt3GlW742jaxFcJbx-ZVAF6ed-pRpsKDYwoKaqtF-1A1syURvPrAy0LyzF8riSAUzxTn1iw8fA3ezXAFB6P_rwYGaXK6weaq31AlUM&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - 'heading "Playwright Test Automation: Key Benefits and Features" [level=3] [ref=f3e480]'
+              - generic [ref=f3e486]:
+                - generic [ref=f3e487]: Testomat.io
+                - generic [ref=f3e489]: https://testomat.io › blog › test-a...
+            - generic [ref=f3e491]:
+              - generic [ref=f3e492]: ·
+              - link "Traduzir esta página" [ref=f3e493] [cursor=pointer]:
+                - /url: /goto?url=CAES-AEBxCJF18QmyQfiJETHnZJq1a2xT5z4rZLCOEFDOn2XZWJRP5qKiSiKjSRuIXVV4vjog0aYw7UR1DQ4x_-xdSkk_eEdcO3itRqZxEBAGdAE1cLIoMELieiicW3073_myN2-Xb1SuEy9HwUvjJ29MTxJSDFEv5T0d1wYnsN-MKhZV0-bOQQSgsmgiYCsQKYIlMhDVzI6Pw5CqVlEZ4S6QilPugRse8bZJk2DqInN86_Aiejg1ROVHvMil8YPQOJoKv5Id-a3luCCN2cYe0UDxdsSMt0YrSpDRuvDe-fedCm6xazejzunfMftNNKI7dYD73UfWyqCJ6WOgA&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e498] [cursor=pointer]
+          - generic [ref=f3e504]:
+            - generic [ref=f3e505]: há 5 dias —
+            - generic [ref=f3e506]:
+              - emphasis [ref=f3e507]: Playwright is an open-source Node.js library
+              - text: that enables efficient E2E testing of web apps, making Playwright automation a key player in modern ...
+        - generic [ref=f3e511]:
+          - generic [ref=f3e514]:
+            - 'link "Playwright Test Automation: A Complete Guide for Modern ... BaseRock AI https://www.baserock.ai › blog" [ref=f3e516] [cursor=pointer]':
+              - /url: /goto?url=CAESdAHEIkXXDRBiN1uAlijdZYPrQHwL2GciOB3gHOzdhWcmT2QoEMHsW1gZlWVneJbDu51GKfNpKJF0Ycdhk3g_jbV7de1L5T0cRD6WB1HI4Fo3lXOJqxtnxdLkdvzwI1eQoWMprjcnJLhBFqLqD4Ef-lYB2h50&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - 'heading "Playwright Test Automation: A Complete Guide for Modern ..." [level=3] [ref=f3e517]'
+              - generic [ref=f3e523]:
+                - generic [ref=f3e524]: BaseRock AI
+                - generic [ref=f3e526]: https://www.baserock.ai › blog
+            - generic [ref=f3e528]:
+              - generic [ref=f3e529]: ·
+              - link "Traduzir esta página" [ref=f3e530] [cursor=pointer]:
+                - /url: /goto?url=CAESxAEBxCJF12hXplitFmjrA8M2xWOq1UcP531g1_9vol4C0n8dComTWAvKZXdCm0FwQNgYs5Hq6zFkmueO6jLc_pZO13mVUl9xWY2hJMX6FlW8Zbbsd5sOUSvMU6AvJVcTx0vf0HTDnSgMWFxJlJrQ0mG3GbszkkpUx5Wedxtp7-YUn6kj0dhsM3i-t2GnTbFVUGmTJC0b-xiwmaSybz6nL8lmZSfKC4rvhUDq3lPXTvAKsf1iaZFocrlZrH6fw1dgWMqK9C_o&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e535] [cursor=pointer]
+          - generic [ref=f3e541]:
+            - generic [ref=f3e542]: 17/02/2026 —
+            - generic [ref=f3e543]:
+              - emphasis [ref=f3e544]: Playwright is a modern, open-source test automation framework
+              - text: developed by Microsoft. It's designed to enable robust end-to-end testing of web ...
+        - generic [ref=f3e548]:
+          - generic [ref=f3e551]:
+            - 'link "Test Automation with Playwright: A Complete Guide Royal Cyber https://www.royalcyber.com › blogs" [ref=f3e553] [cursor=pointer]':
+              - /url: /goto?url=CAESjgEBxCJF1xRWXBZWxF6w8G0hbNtxKUJZ1N9mxAFlGiZTOX7mvlvLGrAm0aswLrywHh_r1M5i4m-NPa3x0Lr7wWgeSA7PLbwqL7TTmlUUi2KL8MiB5f5A8h6OT-FmID2NkieXThPAfM2J3dorZZJ3r9V5_rElnKuYzBjU2lL8IH2z0GdzuspuHakutIotDN-h&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - 'heading "Test Automation with Playwright: A Complete Guide" [level=3] [ref=f3e554]'
+              - generic [ref=f3e560]:
+                - generic [ref=f3e561]: Royal Cyber
+                - generic [ref=f3e563]: https://www.royalcyber.com › blogs
+            - generic [ref=f3e565]:
+              - generic [ref=f3e566]: ·
+              - link "Traduzir esta página" [ref=f3e567] [cursor=pointer]:
+                - /url: /goto?url=CAES3gEBxCJF107IToRkfSsO5bdkGI0Xtmyr-WhgQbnzKVgGMz1EzfeIK99O927h1UclwElmQFzggPY4gM_K2qKTEi3H3QG6LWPOcVDmXzOViDpP3ThdAkkgddUgRN-NXT3-UdRq3tiNd2pQSHFEltP_Tjs8qTPmjy8AftEvl5QEHUhjUJ67u9EdmBKXzp8-RSdcp7JpITjajBTrVNSNQ3SOzz5HXyEcDwfJm_bhY8npltGSdRYdB75N_jANXm8W7mHo4UGYHhVu0qotQSjuNCdRb2UEGo_Mr9Twimhy532SnrU&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e572] [cursor=pointer]
+          - generic [ref=f3e578]:
+            - generic [ref=f3e579]: 13/03/2025 —
+            - generic [ref=f3e580]:
+              - text: This article explores the implementation of
+              - emphasis [ref=f3e581]: Playwright as a test automation framework
+              - text: ", leveraging a Custom Page Object Model (POM) in ..."
+        - generic [ref=f3e585]:
+          - generic [ref=f3e588]:
+            - link "Playwright Test Automation Best Practices for QA Engineers Medium · Jignect | Software Testing Company Mais de 10 gostos · há 1 ano" [ref=f3e590] [cursor=pointer]:
+              - /url: /goto?url=CAESoAEBxCJF18gr3DZe76VvFPfWDrSITuHj_XamlXr9uKuxbYTcYSFUzuggvJTp7UqOOIDmg45B09HzYCS342LOlc3KZ4Lrzcy72DNX3BmbPmHusDv5FZew5zRIvPFee4r6ZJXIVhknvk0CeAIC0JCJ98TKbxuQgv6idM2TtvDOZF8CZ5ZhcyEPbNKNordvPJSXfRXxMbfeZmWpyX28fofF4irk&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - heading "Playwright Test Automation Best Practices for QA Engineers" [level=3] [ref=f3e591]
+              - generic [ref=f3e597]:
+                - generic [ref=f3e598]: Medium · Jignect | Software Testing Company
+                - generic [ref=f3e600]: Mais de 10 gostos · há 1 ano
+            - button "Acerca deste resultado" [ref=f3e606] [cursor=pointer]
+          - generic [ref=f3e613]:
+            - emphasis [ref=f3e614]: Playwright
+            - text: can automatically capture trace logs, screenshots, and even video for failed tests → huge time saver in debugging. Mocking and ...
+        - generic [ref=f3e618]:
+          - generic [ref=f3e621]:
+            - 'link "Playwright Test Automation: Complete Guide for QA Teams TestDino https://testdino.com › Blog" [ref=f3e623] [cursor=pointer]':
+              - /url: /goto?url=CAEScQHEIkXX7jSL1L2POrk-bnrpTLZnXgI5CkL53RIiLovCbbXsMwghWby4fDMXMqNJjlcNtozgT8b5smKR-Nul6JDFAbu24FUNZ1O7biFkSGUgBZ122kCwnRA6yWEGWe3gL_JwvvMN1E66VoZxA8MHLnF8&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - 'heading "Playwright Test Automation: Complete Guide for QA Teams" [level=3] [ref=f3e624]'
+              - generic [ref=f3e630]:
+                - generic [ref=f3e631]: TestDino
+                - generic [ref=f3e633]: https://testdino.com › Blog
+            - generic [ref=f3e635]:
+              - generic [ref=f3e636]: ·
+              - link "Traduzir esta página" [ref=f3e637] [cursor=pointer]:
+                - /url: /goto?url=CAESwQEBxCJF1xu1MywxGSSP1JT31AEfwz1HfrWFKcOfMvznoTxEQ8iQZE5qv2kDKcW_e6rCsjUw7EB1rTdk1lOzMGJCFxW-VN8RrduCgJH2p0gHNeb9wy9-0VmPg6ONOLRsoPJELI9h7LBZ5Ndxy_rP-I5S8BX9jmCAK-RA_wokn0RsM77FKWnTX3k0O2YcQLWbDuF85WIX0DcLpMDejKGx-x2BlQSNAk-YUFMCmeerakJsiGLd8o6MTEvVYZClGUJdaEDi&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e642] [cursor=pointer]
+          - generic [ref=f3e648]:
+            - generic [ref=f3e649]: 02/09/2026 —
+            - generic [ref=f3e650]:
+              - text: "Master Playwright in 2026:"
+              - emphasis [ref=f3e651]: production configs, CI/CD, smart selectors & scalable patterns
+              - text: for QA teams running 100+ E2E tests.
+        - generic [ref=f3e655]:
+          - generic [ref=f3e658]:
+            - 'link "Playwright: A Guide to Browser Automation & Testing DEV Community https://dev.to › austinwdigital" [ref=f3e660] [cursor=pointer]':
+              - /url: /goto?url=CAESjwEBxCJF10Cm-vLFFxEGy8UFMRXh3ceoLNjgVvG_7Xhyc4UKNxI7xn6LaAXa8Y7P6WssNowaAtGqg7QwUjmFuLC16PniJLu-MBSlAF-pbrjQCDWDf2RhRU_Ij9nEoikaMFyYphWS2A4cCvxedzehDyHCyVVXUm2goJm69jzEtNgl-VqlmCXFltbm_2tl17iK5g&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - 'heading "Playwright: A Guide to Browser Automation & Testing" [level=3] [ref=f3e661]'
+              - generic [ref=f3e667]:
+                - generic [ref=f3e668]: DEV Community
+                - generic [ref=f3e670]: https://dev.to › austinwdigital
+            - generic [ref=f3e672]:
+              - generic [ref=f3e673]: ·
+              - link "Traduzir esta página" [ref=f3e674] [cursor=pointer]:
+                - /url: /goto?url=CAES3wEBxCJF1-ogkagSlx7YdjtY4bxAy_6DOyqzcc_GLAasWO155COP35LxUK7U3e0H8i4byx4-G8vY3_MFqfhl1OcBTk0ZJvood5qPQUnRKBDDbDjnTQoOtRcDMTV0uBgw3I2o3T0JJV8BoNk-xXy_3t4zKu5VztIhi7wbEyS5LMHHvRN8OGso14SnXQae76zZSmWhlcwcZR5BYTzYHNCHh_N7K72SNfrOlqz4NMt2QnC9dQKbsN8XK01uQbESnE4tdc0PwoQpF3zXidB-bemWAC5vVESvLut3fPvfc22Gb_M2&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e679] [cursor=pointer]
+          - generic [ref=f3e685]:
+            - generic [ref=f3e686]: 16/02/2025 —
+            - generic [ref=f3e687]:
+              - emphasis [ref=f3e688]: Playwright is a browser automation library
+              - text: designed for fast, reliable, and cross-browser testing. It supports Chromium, Firefox, and WebKit, ...
+        - generic [ref=f3e692]:
+          - generic [ref=f3e695]:
+            - link "Microsoft Playwright Testing Microsoft Azure https://azure.microsoft.com › en-us" [ref=f3e697] [cursor=pointer]:
+              - /url: /goto?url=CAESegHEIkXXEIwv5DfkZNC32zwfaEymt7yYZ3XX1BDtMMN0Vn7A3X8MjiFY7mWFGYJ1lThYxXV8GdBy20exa5KiUnesgZ7RID8OPbYUsu385he063gQU7hT-44E3_gVP-t8yvABMIhcaYt_uFtq-jPDNOh65uYnl85_2HRa&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+              - heading "Microsoft Playwright Testing" [level=3] [ref=f3e698]
+              - generic [ref=f3e704]:
+                - generic [ref=f3e705]: Microsoft Azure
+                - generic [ref=f3e707]: https://azure.microsoft.com › en-us
+            - generic [ref=f3e709]:
+              - generic [ref=f3e710]: ·
+              - link "Traduzir esta página" [ref=f3e711] [cursor=pointer]:
+                - /url: /goto?url=CAESygEBxCJF191G04salVt_GU6y_zzvu-YiwWcmhDz8_ribej_u4sfyRQiHmwMFcCzI_jo8nMcAAvn0FzJVm3Q2qnQI7kPiXLV5GZb3GqZzxFR7NuFad47Bzh3CkoOJw4m0qJamAVfx-QQM-3b-A-psi5qDU-QkrG7lqP7sJA2Zuv0TfCWOc3MWukGeg44oxVPHydedJhubommKJalmm1hYXAkzDouRaQ3bixQXsfKOkDLm0-sBLIU3gu8c70LMpa4bK4aJ-zAkvppYZ-E2&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+            - button "Acerca deste resultado" [ref=f3e716] [cursor=pointer]
+          - generic [ref=f3e723]:
+            - text: Streamline your continuous integration workflow through
+            - emphasis [ref=f3e724]: scalable cloud-based browser testing
+            - text: and reporting insights with Microsoft Playwright Testing ...
+        - region "Anúncios" [ref=f3e728]:
+          - generic [ref=f3e729]:
+            - heading "Resultado patrocinado" [level=2] [ref=f3e736]
+            - generic [ref=f3e737]:
+              - generic [ref=f3e749]:
+                - generic [ref=f3e750]:
+                  - 'link "Test Automation: A Complete Guide | Xray Blog getxray.app https://www.getxray.app" [ref=f3e751] [cursor=pointer]':
+                    - /url: /goto?url=CAESpQEBxCJF14HNebRa5b4wmlidqoM3iXAWXO-lW-L_pRw9Nxmo-dPArIWkdHWIivNYLm6pAjdSTemocD9DuwhC9KGLSVe0C_ej0WGnImuRWUifiA_EZlQmn_auP_hHBM6ACpElKbFe0tgPkKia3NAEqFgmZVrwa59C4FFIGSevHqOivakoj4Lse-ArWPkaYVvtmowVBXCT2vqaHtn8DWU7pS23o530hsw&gsessionid=KrmrUmhISChhBRc6vDcgIk2pIu4ttkTfngijH2f2dp2Bw3vwNFpbIQ
+                    - 'heading "Test Automation: A Complete Guide | Xray Blog" [level=3] [ref=f3e752]'
+                    - generic [ref=f3e758]:
+                      - generic [ref=f3e759]: getxray.app
+                      - generic [ref=f3e761]: https://www.getxray.app
+                  - button "Porquê este anúncio?" [ref=f3e764] [cursor=pointer]
+                - generic [ref=f3e768]: Unlock automation insights that simplify your testing and improve quality delivery. Discover how to automate tests effectively and deliver faster, reliable results. Index tests in real time. Full Integration.
+                - generic [ref=f3e771]: Mais de 10 000 visitas no último mês
+              - button "Ocultar resultado patrocinado" [ref=f3e777]:
+                - separator [aria-hidden] [ref=f3e778]
+      - generic [ref=f3e786]:
+        - generic [ref=f3e791]:
+          - heading "As pessoas também pesquisam" [level=2] [ref=f3e793]
+          - generic [ref=f3e795]:
+            - generic [ref=f3e796]:
+              - link "Playwright automation testing tutorial" [ref=f3e800] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+automation+testing+tutorial&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAg-EAE
+              - link "Playwright tutorial W3Schools" [ref=f3e814] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+tutorial+W3Schools&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhdEAE
+              - link "Playwright example test" [ref=f3e828] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+example+test&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhbEAE
+              - link "Test describe playwright" [ref=f3e842] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Test+describe+playwright&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhSEAE
+            - generic [ref=f3e853]:
+              - link "Playwright automation framework GitHub" [ref=f3e857] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+automation+framework+GitHub&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhKEAE
+              - link "Playwright tutorial for beginners" [ref=f3e871] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+tutorial+for+beginners&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhJEAE
+              - link "Playwright tutorial Guru99" [ref=f3e885] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+tutorial+Guru99&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhIEAE
+              - link "Playwright Tutorial PDF" [ref=f3e899] [cursor=pointer]:
+                - /url: /search?sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&q=Playwright+Tutorial+PDF&sa=X&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q1QJ6BAhFEAE
+        - navigation [ref=f3e910]:
+          - heading "Navegação de página" [level=1] [ref=f3e911]
+          - text: "1"
+          - link "Página 2" [ref=f3e914] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=10&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAE
+            - text: "2"
+          - link "Página 3" [ref=f3e916] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=20&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAG
+            - text: "3"
+          - link "Página 4" [ref=f3e918] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=30&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAI
+            - text: "4"
+          - link "Página 5" [ref=f3e920] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=40&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAK
+            - text: "5"
+          - link "Página 6" [ref=f3e922] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=50&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAM
+            - text: "6"
+          - link "Página 7" [ref=f3e924] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=60&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAO
+            - text: "7"
+          - link "Página 8" [ref=f3e926] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=70&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAQ
+            - text: "8"
+          - link "Página 9" [ref=f3e928] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=80&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAS
+            - text: "9"
+          - link "Página 10" [ref=f3e930] [cursor=pointer]:
+            - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=90&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8tMDegQIXhAU
+            - text: "10"
+          - heading [level=2] [ref=f3e932]:
+            - link "Próximo" [ref=f3e933] [cursor=pointer]:
+              - /url: /search?q=Playwright+automation+testing&sca_esv=7bf38a0372aa5c6e&sxsrf=AKL5yDhZty80_advCfC0VqpIXZDcue7CbQ:1794247398546&ei=5gryar7eIPv6i-gPiYHL8Ak&start=10&sa=N&sstk=AYl2yk8qu8CG22gWLGYw7y1qJA8qsFKeTHqm0Y3-AU6G969hW4SsiBcEiYQkmdZ6TxROYMtOOftBTwG8UP4-89WCs8TUBbKAXVf1NA&ved=2ahUKEwi-6dC2vPuXAxV7_QIHHYnAEp4Q8NMDegQIXhAW
+      - navigation
+    - contentinfo [ref=f3e936]:
+      - heading "Links do rodapé" [level=1] [ref=f3e937]
+      - generic [ref=f3e941]:
+        - generic [ref=f3e943]:
+          - text: Portugal
+          - generic [ref=f3e945]:
+            - button "Marinhais - Com base no seu endereço IP" [ref=f3e947] [cursor=pointer]:
+              - generic [ref=f3e948]: Marinhais
+              - generic [ref=f3e950]:
+                - text: "-"
+                - generic [ref=f3e951]: Com base no seu endereço IP
+            - text: "-"
+            - button "Atualizar localização" [ref=f3e953] [cursor=pointer]
+        - generic [ref=f3e956]:
+          - link "Ajuda" [ref=f3e957] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=pt-PT&fg=1
+          - button "Envie feedback" [ref=f3e959] [cursor=pointer]
+          - link "Privacidade" [ref=f3e961] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=pt-PT&fg=1
+          - link "Termos" [ref=f3e962] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=pt-PT&fg=1

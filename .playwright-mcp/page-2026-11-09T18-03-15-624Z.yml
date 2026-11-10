@@ -1,0 +1,73 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Sobre" [ref=e159] [cursor=pointer]:
+      - /url: https://about.google/?fg=1&utm_source=google-&utm_medium=referral&utm_campaign=hp-header
+    - link "Google Store" [ref=e160] [cursor=pointer]:
+      - /url: https://store.google.com/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=pt-PT-
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "Gmail" [ref=e161] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Pesquisar imagens" [ref=e162] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=pt-PT&ogbl
+          - text: Imagens
+      - button "Google Apps" [ref=e163] [cursor=pointer]
+      - link "Entrar" [ref=e164] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=pt-PT&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e165]
+  - search [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - button "Adicionar ficheiros e ferramentas" [ref=e166] [cursor=pointer]
+        - combobox "Pesq." [expanded] [active] [ref=e167]:
+          - generic [ref=e184]:
+            - text: Pesquisas populares
+            - listbox [ref=e185]:
+              - option "joana albuquerque big brother" [ref=e191]
+              - option "nfl madrid" [ref=e198]
+              - option "a2" [ref=e205]
+              - option "bandeira palestina alemanha" [ref=e212]
+              - option "flávio nazinho" [ref=e217]:
+                - generic [ref=e218]: Flávio Nazinho
+                - generic [ref=e219]: Jogador de futebol português
+              - option "descarrilamento eletrico lisboa" [ref=e225]
+              - option "preco combustíveis" [ref=e232]
+              - option "super arraial chico da tina" [ref=e239]
+              - option "xiaomi 18" [ref=e246]
+              - option "capitão" [ref=e253]
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - button "Ferramentas de introdução" [ref=e168] [cursor=pointer]
+            - button "Pesquisa por voz" [ref=e169] [cursor=pointer]
+            - button "Pesquisar por imagem" [ref=e170] [cursor=pointer]
+          - link "Modo IA" [ref=e171] [cursor=pointer]
+      - generic [ref=e255]:
+        - button "Pesquisa Google" [ref=e260] [cursor=pointer]
+        - button "Denunciar previsões impróprias" [ref=e261] [cursor=pointer]
+      - generic [ref=e73]:
+        - button "Criar imagens" [ref=e172] [cursor=pointer]
+        - button "Perguntar sobre ficheiros" [ref=e173] [cursor=pointer]
+        - button "Debater ideias" [ref=e174] [cursor=pointer]
+        - button "Sinto-me com sorte" [ref=e175] [cursor=pointer]
+  - generic [ref=e94]:
+    - text: "Disponibilizado pelo Google em:"
+    - link "English" [ref=e176] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_oE7igZr1uckgpzspuV5o08n9Kp4%3D&hl=en&source=homepage&sa=X&ved=2ahUKEwitmNmvvPuXAxXNDTQIHSr5ElMQ2ZgBegQIABAp
+  - contentinfo [ref=e97]:
+    - generic [ref=e98]: Portugal
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - link "Publicidade" [ref=e177] [cursor=pointer]:
+          - /url: https://www.google.com/intl/pt-PT_pt/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Negócios" [ref=e178] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Como funciona a Pesquisa" [ref=e179] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - 'link "A nossa terceira década de ação climática: veja o que estamos a fazer" [ref=e180] [cursor=pointer]':
+        - /url: https://sustainability.google/intl/pt-PT/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+      - generic [ref=e106]:
+        - link "Privacidade" [ref=e181] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=pt-PT&fg=1
+        - link "Termos" [ref=e182] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=pt-PT&fg=1
+        - button "Definições" [ref=e183] [cursor=pointer]

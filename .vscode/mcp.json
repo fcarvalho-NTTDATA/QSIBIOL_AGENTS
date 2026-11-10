@@ -1,0 +1,25 @@
+{
+  "servers": {
+    "qa_mcp_server": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/mcp_servers/qa_mcp_servers.exe",
+      "args": []
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "mobile-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mobilenext/mobile-mcp@latest"
+      ]
+    }
+  }
+}

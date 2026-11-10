@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "env-check",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"node --version && java -version && mvn -version"
+			],
+			"problemMatcher": []
+		}
+	]
+}

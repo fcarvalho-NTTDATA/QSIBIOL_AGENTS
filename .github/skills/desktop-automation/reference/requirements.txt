@@ -1,0 +1,8 @@
+# Development-time-only validation dependencies for the desktop-reliability
+# reference implementation. These are NOT runtime dependencies of the agent or
+# its deliverables; they exist solely to validate the logic-layer behavior the
+# governing documents encode.
+#
+# Verified available in the project venv: hypothesis 6.155.1, pytest 9.0.3.
+hypothesis>=6.155.1
+pytest>=9.0.3
